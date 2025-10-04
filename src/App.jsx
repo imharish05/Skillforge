@@ -137,7 +137,7 @@ function App() {
 
   // API Url
 
-    const API_URL = "http://localhost:3500/courses-data";
+    const API_URL = "https://my-json-server.typicode.com/imharish05/skillforge-api/courses-data";
 
   // cartCount
   const [cartCount, setCartCount] = useState(0);
