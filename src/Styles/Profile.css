@@ -1,0 +1,84 @@
+.user-Profile {
+  width: 100%;
+  min-height: 70vh !important;
+}
+
+#LoginImg {
+  height: 100%;
+  background-color: #a059f5;
+}
+
+#helloText {
+  width: max-content;
+  color: white;
+  background-color: #a059f5;
+  color: white;
+  border-radius: 0% 20px 20px 0;
+}
+
+#form-wrapper{
+  width: 75%;
+}
+.carousel-item {
+  scrollbar-width: 0;
+}
+.card-btn {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+.carousel-item {
+  pointer-events: none; /* disables drag on whole slide */
+}
+.card-body, .card {
+  pointer-events: auto;
+}
+
+
+form {
+  background-color: white;
+}
+form input:focus{
+  border : none;
+  outline: none;
+}
+
+.input {
+  flex: 1;       
+  min-width: 0;  
+}
+
+.user-Profile{
+  min-height: 100vh;
+}
+
+#profilePic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#Edit-btn{
+  background-color: #a059f5;
+  color: white;
+  border: none;
+}
+
+#emptyCart-Profile{
+  height: 250px;
+}
+
+#checkOutBtn{
+  background-color: #a059f5;
+}
+
+@media screen and (max-width : 992px) {
+  #helloText {
+    border-radius: 0 0px 20px 20px;
+  }
+  #form-wrapper{
+  width: 100%;
+}
+
+
+}

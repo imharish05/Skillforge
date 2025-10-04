@@ -1,0 +1,140 @@
+.Home-wrapper{
+    width: 100%;
+  }
+  .Home{
+    background: url(../assets/banner.png);
+    position: relative;
+    min-height: 90vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.Home .home-content{
+  width: 90%;
+}
+
+.Home .shape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.Home .shape .shape-1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  animation: shaping 5s ease-in-out infinite;
+}
+
+.Home .shape .shape-2 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-20%, -50%);
+  animation: shaping 6s ease-in-out infinite;
+}
+.Home .shape .shape-3 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translate(-20%, -50%);
+  animation: shaping 5s ease-in-out infinite;
+}
+.Home .shape .shape-4 {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  transform: translate(-80%, -50%);
+  animation: shaping 3s ease-in-out infinite;
+}
+
+
+
+@keyframes shaping {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50px, 40px);
+    transform: rotate(45deg)
+  }
+  75% {
+    transform: translate(-20px, -50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Popular Courses */
+
+
+.popular-courses .course-link{
+  color: #333333;
+  transition: margin-right 1s ease;
+}
+
+.popular-courses .course-link:hover{
+  color: blue;
+  margin-right: 15px;
+}
+
+.popular-courses .card svg{
+  color: goldenrod;
+}
+
+.popular-courses .course-btn{
+  color: #471b8c;
+  border: 2px solid #471b8c;
+}
+
+
+/* Features */
+
+.Features svg{
+  /* border: 2px solid red; */
+  font-size: 40px;
+  color: #7337f7;
+}
+
+
+/* Newsletter */
+
+.newsletter{
+  background: #a436f1;
+  align-items: stretch;
+}
+
+#newsletterForm{
+  background-color: transparent;
+}
+
+#letterCommand{
+  color: greenyellow;
+}
+
+
+/* Trainers */
+
+.image-wrapper p {
+  transition: 0.3s ease;
+}
+.image-wrapper:hover p{
+  color: #a436f1;
+}
+
+.brands svg{
+  transition: 0.2s ease;
+}
+.brands svg:hover{
+  color: #7337f7;
+  transform: scale(1.5);
+}
+
+
+@media screen and (max-width:992px){
+  .image-wrapper img{
+    height: 300px;
+  }
+}

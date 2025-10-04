@@ -1,0 +1,63 @@
+.Cart{
+    width: 100%;
+}
+.Cart .CartDetails{
+    width: 100%;
+}
+.Cart #emptyCart{
+    width: 30%;
+}
+.seller{
+    color: white;
+    background-color: #6d28d4;
+    cursor: default;
+}
+.seller:hover{
+    color: #6d28d4;
+    background-color: white;
+}
+.content .col-8 {
+  min-width: 0; /* important: allows shrinking in flexbox */
+}
+.CheckOut {
+  height: auto !important;
+  align-self: flex-start;
+}
+
+#price{
+    font-weight: bold;
+}
+
+#checkOut-btn{
+    background-color: #6d28d4;
+    color: white;
+}
+
+#coupon-btn{
+    border:2px solid #6d28d4;
+    color: #6d28d4;
+    background-color: white;
+}
+
+#couponApplyBtn{
+    border : 1px solid #6d28d4;
+        background-color: #6d28d4;
+    color: white;
+}
+
+#deleteBtn{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+#deleteBtn:hover{
+    border : 1px solid #6d28d4;
+    background-color: white;
+    color: red;
+}
+
+@media screen and (max-width: 992px) {
+    .course-content{
+        width: 100% !important;
+    }
+}

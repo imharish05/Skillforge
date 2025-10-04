@@ -1,0 +1,15 @@
+.blogImg{
+    border: 1px solid red;
+    height: 100px;
+}
+img{
+    max-height: 50vh;
+}
+
+.blogcontent :hover{
+    color: #6d28d4;
+}
+
+.stars svg{
+    color: #e4a831;
+}

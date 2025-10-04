@@ -1,0 +1,12 @@
+.course-wrapper{
+    width: 100%;
+    min-height: 70vh;
+}
+.course-content{
+    width: 75%;
+}
+
+
+.img-wrapper{
+    height: 400px;
+}

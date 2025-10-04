@@ -1,0 +1,11 @@
+.Missing a{
+   background-color: #8e69e3;
+   color: white;
+}
+
+@media screen and (max-width:1024px) {
+    .Missing #MissingImg{
+    width: 100%;
+}
+    
+}

@@ -1,0 +1,106 @@
+nav{
+    background-color: rgb(255, 255, 255,);
+}
+.navbar {
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0%;
+    transition:all 0.5s ease;
+    min-height: 10vh;
+    /* box-shadow: 0 0 5px black; */
+}
+
+#navbarNav{
+    width: 50% !important;
+}
+.form-control:focus{
+    outline: none !important;
+}
+
+.navbar.active{
+    background: white;
+    box-shadow: 0 0 5px black;
+}
+.navbar.active a{
+    color: black;
+}
+.navbar.active a:hover{
+    color: pink;
+}
+
+.navbar a{
+    color: black;
+    font-weight: bold;
+}
+.navbar a:hover{
+    font-weight: bold;
+}
+
+.Logo img {
+    max-height: 100px;
+}
+
+.navbar-toggler {
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+
+#NavItem-1 {
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    font-size: 1.2rem;
+}
+.cart-list{
+    position: relative;
+}
+
+#cart-count{
+    position: absolute;
+    left: 100%;
+    bottom: 50%;
+    background-color: red;
+    border-radius: 50%;
+    color: snow;
+}
+
+
+
+@media screen and (max-width : 992px) {
+    .Logo img {
+        max-height: 70px;
+    }
+    .navbar{
+        background-color:white ;
+    }
+    .navbar a{
+    color: black;
+    font-weight: bold;
+}
+.navbar {
+    width: 100%;
+    position: sticky !important;
+    z-index: 1000;
+    top: 0%;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    transition:all 1s ease;
+    min-height: 7vh;
+    /* box-shadow: 0 0 5px black; */
+}
+
+
+}

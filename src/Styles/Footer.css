@@ -1,0 +1,21 @@
+.Footer{
+    border-radius: 40px 40px 0px 0px;
+    /* background: linear-gradient(135deg, #6528e0 5%, #a436f1 100% ,#8cc1f1 0%,white); */
+    background-color: black;
+}
+.Footer img{
+    height: 100px;
+}
+.Footer svg{
+    font-size: x-large;
+    color: #6528e0;
+    background-clip: text;
+}
+.Footer .links-symbol{
+    font-size: small;
+    color: #6528e0;
+    background-clip: text;
+}
+.Footer .store-wrapper img{
+    height: 70px;
+}
